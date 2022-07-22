@@ -56,13 +56,13 @@
               (playground-gist--open (alist-get 'id data))))))
 
 (defun playground-gist-share-buffer ()
-  "Shares the current buffer on Rust Playground"
+  "Shares the current buffer on the Rust Playground"
   (interactive)
   (playground-gist--share
    (buffer-substring-no-properties (point-min) (point-max))))
 
 (defun playground-gist-share-region ()
-  "Shares the current region on Rust Playground"
+  "Shares the current region on the Rust Playground"
   (interactive)
   (playground-gist--share
    (buffer-substring-no-properties (region-beginning) (region-end))))

@@ -11,7 +11,8 @@
 Please install [quelpa](https://github.com/quelpa/quelpa) and [quelpa-use-package](https://github.com/quelpa/quelpa-use-package). Then you can simply use the following:
 
 ```elisp
-(use-package playground-gist :quelpa (playground-gist :fetcher github :repo "mntns/playground-gist"))
+(use-package playground-gist 
+  :quelpa (playground-gist :fetcher github :repo "mntns/playground-gist"))
 ```
 
 ## Usage
